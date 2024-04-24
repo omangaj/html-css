@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+}
+
+.heading{
+    color: white;
+    width: 44%;
+    height: 100px;
+    background-color: #000;
+    float: left;
+}
+.heading h1{
+    padding: 25px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.menu{
+    width: 55%;
+    height: 100px;
+    background-color: #000;
+    float: right;
+    padding-top: 35px;
+    text-align: center;
+}
+.menu a{
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: white;
+    color: #000;
+}
+
+.photo img{
+    padding-top: 10px;
+    width: 100%;
+    height:650px;
+    padding-bottom: 10px;
+
+}
+.main-contain{
+    width: 100%;
+    height: 200px;
+
+}
+.main-contain .sidebar{
+    width: 31%;
+    height: 200px;
+    background-color: black;
+    float: left;
+    padding: 10px;
+    
+}
+
+.sidebar p{
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.main-contain .body-con{
+    width: 68%;
+    height: 200px;
+    background-color:black;
+    float: right;
+    padding: 15px;
+}
+.body-con h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.body-con p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.footer{
+    width:100%;
+    height: 50px;
+    background-color: #000;
+    margin-top: 10px;
+   
+}
+
+.footer h4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
