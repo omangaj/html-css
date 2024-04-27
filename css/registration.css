@@ -4,16 +4,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .box{
     width:500px;
     min-height: 100px;
-    border: 1px solid black;
+    border: 3px solid black;
     margin:140px auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-.hearder{
+.header{
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    border-radius: 20px;
 }
 .header h1{
     text-align: center;
@@ -22,6 +24,7 @@
 }
 .form-field{
     padding: 10px;
+    border-radius: 20px;
 }
 label{
     padding-right: 10px;
